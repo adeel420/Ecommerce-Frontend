@@ -68,7 +68,7 @@ const Arrivals_Selling = () => {
 
       {/* Hr */}
       <div className=" py-24 ">
-        <hr className="text-[#9A9A9A] " />
+        <hr className="text-[#ccc] " />
       </div>
 
       {/* Top Selling */}

@@ -48,3 +48,46 @@ export const products = [
     image: assets.shirt2,
   },
 ];
+
+export const testimonials = [
+  {
+    name: "Sarah Johnson",
+    description:
+      "The quality of the clothes is amazing! Everything fits perfectly and feels premium. I’ll definitely be shopping here again.",
+  },
+  {
+    name: "Michael Lee",
+    description:
+      "Fast delivery and excellent customer service. The designs are modern and exactly as shown on the website.",
+  },
+  {
+    name: "Ayesha Khan",
+    description:
+      "I love how comfortable and stylish the outfits are. Perfect for both casual wear and special occasions.",
+  },
+  {
+    name: "Daniel Roberts",
+    description:
+      "Great fabric, great prices, and great experience overall. This brand has become my go-to for everyday fashion.",
+  },
+  {
+    name: "Emily Carter",
+    description:
+      "The attention to detail is impressive. Every piece I ordered exceeded my expectations.",
+  },
+  {
+    name: "Rohan Mehta",
+    description:
+      "Trendy styles with excellent quality. I’ve received so many compliments wearing these outfits.",
+  },
+  {
+    name: "Sophia Martinez",
+    description:
+      "Beautiful designs and very comfortable to wear. The sizing was accurate and the delivery was quick.",
+  },
+  {
+    name: "James Wilson",
+    description:
+      "Absolutely worth it! Premium look and feel at a reasonable price. Highly recommended.",
+  },
+];
