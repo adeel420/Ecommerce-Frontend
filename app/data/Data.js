@@ -91,3 +91,24 @@ export const testimonials = [
       "Absolutely worth it! Premium look and feel at a reasonable price. Highly recommended.",
   },
 ];
+
+export const categories = [
+  { id: 0, category: "Shirts" },
+  { id: 1, category: "Pants" },
+  { id: 2, category: "Trousers" },
+  { id: 3, category: "Hoodie" },
+  { id: 4, category: "Jeans" },
+];
+
+export const colors = [
+  "#00FF00", // green
+  "#FF0000", // red
+  "#FFFF00", // yellow
+  "#FFA500", // orange
+  "#00FFFF", // cyan
+  "#0000FF", // blue
+  "#800080", // purple
+  "#FF00FF", // pink
+  "#FFFFFF", // white
+  "#000000", // black
+];

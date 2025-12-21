@@ -31,7 +31,7 @@ const Header = () => {
             <Link href="/" className="hover:text-gray-600 transition">
               Home
             </Link>
-            <Link href="#" className="hover:text-gray-600 transition">
+            <Link href="/shop" className="hover:text-gray-600 transition">
               Shop
             </Link>
             <Link href="#" className="hover:text-gray-600 transition">
@@ -103,7 +103,7 @@ const Header = () => {
               Home
             </Link>
             <Link
-              href="#"
+              href="/shop"
               className="py-2 hover:text-gray-600 transition text-sm font-normal"
             >
               Shop
