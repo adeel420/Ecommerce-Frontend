@@ -1,5 +1,5 @@
 "use client";
-import { faqs } from "@/app/data/Data";
+import { detailFaqs } from "@/app/data/Data";
 import React, { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import clsx from "clsx";
@@ -18,7 +18,7 @@ const FAQs = () => {
       </div>
 
       <div className="space-y-0 border border-border rounded-lg overflow-hidden">
-        {faqs.map((faq, index) => (
+        {detailFaqs.map((faq, index) => (
           <div
             key={index}
             className={clsx(

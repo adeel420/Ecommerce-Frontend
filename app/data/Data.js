@@ -132,7 +132,7 @@ export const dressStyle = [
   { id: 3, style: "Gym" },
 ];
 
-export const faqs = [
+export const detailFaqs = [
   {
     question: "What is the return policy?",
     answer:
@@ -146,5 +146,33 @@ export const faqs = [
   {
     question: "Can I cancel my order?",
     answer: "Yes, you can cancel your order within 24 hours of placing it.",
+  },
+];
+
+export const faqs = [
+  {
+    question: "What are your shipping options?",
+    answer:
+      "We offer standard shipping (5-7 business days), express shipping (2-3 business days), and next-day delivery for orders placed before 2pm EST. Free standard shipping is available for orders over $100.",
+  },
+  {
+    question: "What is your return policy?",
+    answer:
+      "We accept returns within 30 days of purchase for unworn items with original tags attached. Refunds are processed within 5-10 business days of receiving the returned item. Shipping costs are non-refundable unless the item is defective.",
+  },
+  {
+    question: "How can I track my order?",
+    answer:
+      "Once your order ships, you'll receive a tracking number via email. You can also track your order by logging into your account and visiting the Orders section. Tracking information updates within 24 hours of shipment.",
+  },
+  {
+    question: "Do you offer international shipping?",
+    answer:
+      "Yes, we ship to over 50 countries worldwide. International shipping costs and delivery times vary by destination. Customs fees and import duties are the responsibility of the customer and are not included in the product price.",
+  },
+  {
+    question: "How do I contact customer support?",
+    answer:
+      "You can reach our customer support team via email at support@shop.co, by phone at +1 (234) 567-890 during business hours (Mon-Fri, 8am-5pm EST), or by using the contact form on this page. We typically respond within 24 hours.",
   },
 ];

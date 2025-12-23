@@ -13,6 +13,8 @@ import formal from "./image/formal.png";
 import gym from "./image/gym.png";
 import party from "./image/party.png";
 import filter from "./image/filter.png";
+import design from "./image/design.png";
+import team from "./image/team.png";
 
 export const assets = {
   gucci,
@@ -30,4 +32,6 @@ export const assets = {
   gym,
   party,
   filter,
+  design,
+  team,
 };
