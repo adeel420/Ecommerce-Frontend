@@ -10,12 +10,15 @@ import {
 } from "react-icons/md";
 import { categories, colors, dressStyle, products, sizes } from "../data/Data";
 import { Slider } from "antd";
+import { useRouter } from "next/navigation";
 
 const page = () => {
   const [openCategoryId, setOpenCategoryId] = useState(null);
   const [openDressStyleId, setDressStyleId] = useState(null);
   const [selectedColor, setSelectedColor] = useState(colors[0]);
   const [selectedSize, setSelectedSize] = useState("");
+
+  const router = useRouter();
 
   const handleToggle = (id) => {
     setOpenCategoryId((prev) => (prev === id ? null : id));
@@ -198,7 +201,8 @@ const page = () => {
             {products.map((item) => (
               <div
                 key={item.id}
-                className="w-full max-w-[260px] sm:max-w-[295px]"
+                onClick={() => router.push("/detailed-page")}
+                className="w-full max-w-[260px] cursor-pointer sm:max-w-[295px]"
               >
                 <div className="w-full h-[220px] sm:h-[260px] md:h-[298px] bg-[#efeeec] rounded-[20px] flex items-center justify-center">
                   <Image
@@ -247,7 +251,8 @@ const page = () => {
             {products.map((item) => (
               <div
                 key={item.id}
-                className="w-full max-w-[260px] sm:max-w-[295px]"
+                onClick={() => router.push("/detailed-page")}
+                className="w-full max-w-[260px] cursor-pointer sm:max-w-[295px]"
               >
                 <div className="w-full h-[220px] sm:h-[260px] md:h-[298px] bg-[#efeeec] rounded-[20px] flex items-center justify-center">
                   <Image

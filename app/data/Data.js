@@ -131,3 +131,20 @@ export const dressStyle = [
   { id: 2, style: "Party" },
   { id: 3, style: "Gym" },
 ];
+
+export const faqs = [
+  {
+    question: "What is the return policy?",
+    answer:
+      "You can return products within 30 days of receipt for a full refund.",
+  },
+  {
+    question: "How long does shipping take?",
+    answer:
+      "Shipping typically takes 5-7 business days depending on your location.",
+  },
+  {
+    question: "Can I cancel my order?",
+    answer: "Yes, you can cancel your order within 24 hours of placing it.",
+  },
+];

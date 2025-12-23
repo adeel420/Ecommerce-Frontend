@@ -1,8 +1,10 @@
 import { products } from "@/app/data/Data";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const Arrivals_Selling = () => {
+  const router = useRouter();
   return (
     <div className="py-16 px-4 md:px-8 lg:px-16">
       {/* Title */}
@@ -13,7 +15,11 @@ const Arrivals_Selling = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-items-center">
         {products.map((item) => (
-          <div key={item.id} className="w-full max-w-[295px]">
+          <div
+            key={item.id}
+            className="w-full max-w-[295px] cursor-pointer"
+            onClick={() => router.push("/detailed-page")}
+          >
             {/* Image */}
             <div className="w-full h-[298px] bg-[#efeeec] rounded-[20px] flex items-center justify-center">
               <Image
@@ -80,7 +86,11 @@ const Arrivals_Selling = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 place-items-center">
         {products.map((item) => (
-          <div key={item.id} className="w-full max-w-[295px]">
+          <div
+            key={item.id}
+            className="w-full max-w-[295px] cursor-pointer"
+            onClick={() => router.push("/detailed-page")}
+          >
             {/* Image */}
             <div className="w-full h-[298px] bg-[#efeeec] rounded-[20px] flex items-center justify-center">
               <Image
