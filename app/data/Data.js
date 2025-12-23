@@ -112,3 +112,22 @@ export const colors = [
   "#FFFFFF", // white
   "#000000", // black
 ];
+
+export const sizes = [
+  { id: 0, size: "XX-Small" },
+  { id: 1, size: "X-Small" },
+  { id: 2, size: "Small" },
+  { id: 3, size: "Medium" },
+  { id: 4, size: "Large" },
+  { id: 5, size: "X-Large" },
+  { id: 6, size: "XX-Large" },
+  { id: 7, size: "3X-Large" },
+  { id: 8, size: "4X-Large" },
+];
+
+export const dressStyle = [
+  { id: 0, style: "Casual" },
+  { id: 1, style: "Formal" },
+  { id: 2, style: "Party" },
+  { id: 3, style: "Gym" },
+];
